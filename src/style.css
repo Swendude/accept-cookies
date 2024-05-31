@@ -1,0 +1,46 @@
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  width: 56rem;
+  margin-inline: auto;
+  margin-block: 3rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#app p {
+  text-align: center;
+}
+
+#pop {
+  padding: 10rem;
+  position: relative;
+  background-color: none;
+  border-width: 0;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#pop::backdrop {
+  backdrop-filter: blur(7px);
+}
+
+#accept {
+  font-family: inherit;
+  position: fixed;
+  border: none;
+  outline: none;
+  font-size: larger;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: black;
+  cursor: pointer;
+}
