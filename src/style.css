@@ -6,7 +6,6 @@ html {
   display: flex;
   flex-direction: column;
   place-items: center;
-  width: 56rem;
   margin-inline: auto;
   margin-block: 3rem;
   padding: 2rem;
